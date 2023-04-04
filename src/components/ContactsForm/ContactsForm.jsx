@@ -46,6 +46,6 @@ export const ContactsForm = ({ addNewContact }) => {
   );
 };
 
-Formik.propTypes = {
+ContactsForm.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };

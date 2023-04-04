@@ -13,7 +13,7 @@ export const Contact = ({ contact: { id, name, number }, deleteContact }) => {
 };
 
 Contact.propTypes = {
-  contacts: PropTypes.shape({
+  contact: PropTypes.shape({
     id: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     number: PropTypes.string.isRequired,
